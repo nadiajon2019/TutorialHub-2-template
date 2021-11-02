@@ -6,14 +6,17 @@
   font-family: sans-serif;
   font-weight: 400;
   color: white;
+  display: flex;
+ justify-content:space-between;
 }
+
 body {
   background-color: whitesmoke;
 }
 .grid {
   /* add correct code to place the grid elements 
   one beside the other equally.   */
-
+display: flex;
   flex-wrap: wrap;
   font-family: sans-serif;
 }
